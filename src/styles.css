@@ -1,0 +1,36 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.weather-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-top: 20px; /* Add space between search bar and cards */
+}
+
+.weather-card {
+    flex: 1;
+    width: 23%;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px; /* Add space between each card */
+}
+
+.weather-card:last-child {
+    margin-right: 0; /* Remove margin from the last card */
+}
+
+.weather-card h3 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#loadingMsg {
+    margin-top: 10px; /* Add space between loading message and cards */
+}
